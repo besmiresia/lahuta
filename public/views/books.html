@@ -1,0 +1,49 @@
+{{define "books"}}
+
+<html>
+    {{template "nav" .}}
+
+    {{template "hero" .}}
+    <div class="container is-narrow">
+
+
+    <div class="columns">
+        <div class="column ">
+        <article class="message is-primary">
+          <div class="message-header">
+            <p>Librat</p>
+          </div>
+          <div class="message-body">
+            {{range .}}
+            <a href="{{.File}}">
+              <div class="board-item">
+              <div class="board-item-content">
+                <span>{{ .Name}}</span>
+              </div>
+              </div>
+            </a>
+            {{end}}
+          </div>
+        </article>
+        </div>
+    </div>
+    </div>
+
+    <style>
+    .board-item-content {
+        word-break: break-all;
+        position: relative;
+        padding: 20px;
+        background: #fff;
+        border-radius: 4px;
+        font-size: 17px;
+        text-align: center;
+        cursor: pointer;
+        -webkit-box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+        box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+        margin: 5px;
+    }
+    </style>
+
+</html>
+{{end}}

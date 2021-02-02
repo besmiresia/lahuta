@@ -1,0 +1,5 @@
+#!/bin/fish
+for i in (ls books/**/*.txt | grep -v zanglish)
+  echo $i
+  bin/crowbook -s $i
+end
