@@ -5,12 +5,15 @@ Email us to get published
 We have a few different categories you can contribute to
 
 - Short story  
+
 Fables, tales, novella, ballads
 
 - Weekly Serie 
+
 Think chapter book, periodical literature, pulp fiction, netflix etc. A new chapter is published at regular intervals.
 
 - Poetry
+
 Anything from couplets to epics
 
 
